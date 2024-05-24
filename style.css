@@ -1,0 +1,476 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+@media (min-width:768px) {
+    
+header {
+    position: relative;
+    background: url("images/MAIN\ BG.png");
+    background-size: cover;
+    width: 100vw;
+    height: 70.6rem;
+}
+.cheesecake img {
+    width: 40%;
+    height: auto;
+}
+.cheesecake {
+    position: absolute;
+    top: 5px;
+    left: 94px;
+}
+nav {
+    position: absolute;
+    top: 67px;
+    left: 484px;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #6F4436CC;
+    width: 44.6rem;
+    height: 4.3rem;
+    border-radius: 1rem;
+    padding-left: 2px;
+}
+  
+  li {
+    float: left;
+}
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: inter;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+  
+  li a:hover {
+    background: white;
+    color: #6F4436CC;
+    border-radius: 1rem;     
+}
+#btn {
+    position: absolute;
+    background: none;
+    top: 64px;
+    left: 1090px;
+    width: 10.4rem;
+    height: 4.9rem;
+    border: 2px solid #523728;
+    border-radius: 3.8rem;
+}
+#btn a {
+    text-decoration: none;
+    color: #523728;
+    font-size: 1.6rem;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.intro {
+    position: absolute;
+    top: 6px;
+    left: 100px;
+    width: 90vw;
+    height: 60rem;
+}
+.introtext {
+    position: absolute;
+    left: 22px;
+    top: 200px;
+}
+.introtext h1 {
+    font-size: 6.9rem;
+    font-weight: 400;
+    font-family: Inika;
+    color: #523728;
+    line-height: 82.8px;
+
+}
+.introtext p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: inter;
+    color: #1B0B0BBF;
+    line-height: 28.8px;
+
+}
+.introimage img {
+    width: 150%;
+    height: auto;
+}
+.introimage {
+    position: absolute;
+    left: 540px;
+    top: 5px;
+}
+#btn1 {
+    background: #6A4028;
+    width: 14.7rem;
+    height: 5.6rem;
+    border-radius: 10rem;
+    margin-top: 3rem;
+    
+}
+#btn1 a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: poppins;
+    color: white;
+}
+#btn2 {
+    background: none;
+    width: 14.7rem;
+    height: 5.6rem;
+    border-radius: 10rem;
+    border: 1px solid #3D2619;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: poppins;
+}
+#btn2 a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: poppins;
+    color: #3D2619;
+}
+.aboutus {
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    min-height: 50vh;
+    flex-wrap: wrap;
+}
+.aboutus img {
+    width: 100%;
+    height: auto;
+}
+.abouttext  {
+    font-family: inika;
+    padding-right: 50px;
+    padding-top: 100px;
+}
+.abouttext h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    color: #220404;
+}
+.abouttext h4 {
+    font-family: poppins;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #1B0B0BBF;
+}
+.abouttext p {
+    font-family: inter;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #000000B2;
+}
+#btn3 {
+    background: #6A4028;
+    width: 14.7rem;
+    height: 5.6rem;
+    border-radius: 10rem;
+    margin-top: 3rem;
+    box-shadow: 0px 5px;
+    width: 17rem;
+    height: 5.6rem;
+    
+}
+#btn3 a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: poppins;
+    color: white;
+}
+.menu {
+    background: #6A4028E5;
+    width: 100vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+.menu h1 {
+    font-family: inika;
+    font-weight: 400;
+    font-size: 6.4rem;
+    line-height: 83.39px;
+    color: #FFF8E1;
+}
+.menubox {
+    display: flex;
+    justify-content: space-around;
+}
+.menubox img{
+    width: 50%;
+    height: auto;
+    
+}
+.menu1 {
+    position: relative;
+    background: #FFF8E1;
+    width: 35.5rem;
+    height: 35.1rem;
+    border-radius: 4.1rem;
+    margin: 2rem;
+    padding: 2rem;
+}
+.menuimg {
+    position: absolute;
+    text-align: center;
+}
+.menutext {
+    position: absolute;
+    top: 22rem;
+}
+#rating {
+    position: absolute;
+    right: 5rem;
+    top: 28rem;
+    font-size: 2rem;
+    color: #745545;
+}
+.menu h2 {
+    font-family: inika;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #6A4028E5;
+}
+.menu p {
+    font-family: inter;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #555555;
+}
+.menu h3 {
+    font-family: inter;
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #745545;
+}
+.menu2 {
+    position: relative;
+    background: #FFF8E1;
+    width: 35.5rem;
+    height: 35.1rem;
+    border-radius: 4.1rem;
+    margin: 2rem;
+    padding: 2rem;
+}
+.menu3 {
+    position: relative;
+    background: #FFF8E1;
+    width: 35.5rem;
+    height: 35.1rem;
+    border-radius: 4.1rem;
+    margin: 2rem;
+    padding: 2rem;
+}
+#usdclr {
+    color: #53A623
+}
+.btn4 {
+    align-self:self-end;
+    padding-bottom: 5rem;
+}
+p a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    padding-right: 5rem;
+    font-weight: 400;
+    font-family: inter;
+    
+}
+.blog {
+    background: #FFF8E1;
+    width: 100vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+.blog h1 {
+    font-family: inika;
+    font-size: 6.4rem;
+    font-weight: 400;
+    color: #734B33;
+}
+.blog p {
+    font-family: inter;
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #734B33;
+}
+.blogpost img {
+    width: 99%;
+    height: auto;
+    border-radius: 1.6rem;
+}
+.blogpost {
+    display: flex;
+    justify-content: space-around;
+}
+.blog1 {
+    width: 32rem;
+    height: 55.1rem;
+    border-radius: 1.9rem;
+    background: none;
+    margin: 4rem;
+    padding: 2rem;
+    box-shadow: 0px 0px 10px 10px #4D422C61;
+}
+
+.blog2 {
+    width: 32rem;
+    height: 55.1rem;
+    border-radius: 1.9rem;
+    background: none;
+    margin: 4rem;
+    padding: 2rem;
+    box-shadow: 0px 0px 10px 10px #4D422C61;
+}
+.blog3 {
+    width: 32rem;
+    height: 55.1rem;
+    border-radius: 1.9rem;
+    background: none;
+    margin: 4rem;
+    padding: 2rem;
+    box-shadow: 0px 0px 10px 10px #4D422C61;
+}
+.blogtext {
+    padding-top: 2rem;
+}
+.blogtext h6 {
+    font-family: Outfit;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #BB6939;
+}
+.blogtext h2 {
+    font-family: poppins;
+    color: #734B33;
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+.blogtext p {
+    color: #704B33;
+    font-size: 1.25rem;
+    font-family: poppins;
+    font-weight: 400;
+}
+.blogtext p a {
+    font-family: poppins;
+    color: #734b33;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.contactus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #6A4028F0;
+    width: 100vw;
+    min-height: 50vh;
+    padding: 5rem;
+}
+.contactus img {
+    width: 75%;
+    height: auto;
+}
+.contact1 h1 {
+    font-family: inika;
+    font-size: 6.4rem;
+    font-weight: 400;
+    color: #FFF8E1;
+}
+.contact1 p {
+    font-family: roboto;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #FFF8E1;
+}
+#socialmedia {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+}
+.contact2 {
+    margin-top: 5rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+#name {
+    width: 41.2rem;
+    height: 6.1rem;
+    border-radius: 6rem;
+    background: #FCF9F4;
+    color: #757575;
+    margin: 2rem;
+    font-family: inter;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    box-shadow: 0 0 4px 10px #00000057;
+    padding-right: 30rem;
+}
+#comment {
+    width: 41.7rem;
+    height: 16.1rem;
+    border-radius: 2.6rem;
+    background: #FCF9F4;
+    color: #757575;
+    margin: 2rem;
+    font-family: inter;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    box-shadow: 0 0 4px 10px #00000057;
+    padding-right: 25rem;
+    padding-bottom: 10rem;
+
+}
+#btnlast {
+    width: 41.7rem;
+    height: 6rem;
+    border-radius: 6rem;
+    margin: 2rem;
+    background: #FCAE36;
+    box-shadow: 0 0 5px 10px #00000057;
+}
+#btnlast a {
+    color: #000;
+    font-family: inter;
+    font-size: 2.4rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+}
