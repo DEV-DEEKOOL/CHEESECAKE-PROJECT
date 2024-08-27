@@ -10,17 +10,19 @@ html {
     
 header {
     position: relative;
-    background: url("images/MAIN\ BG.png");
+    background-image: url("./images/MAIN BG.png");
     background-size: cover;
     width: 100vw;
     height: 70.6rem;
 }
 .cheesecake img {
-    width: 40%;
+    width: 100%;
     height: auto;
 }
 .cheesecake {
     position: absolute;
+    width: 22rem;
+    height: 20rem;
     top: 5px;
     left: 94px;
 }
@@ -29,7 +31,7 @@ nav {
     top: 67px;
     left: 484px;
 }
-ul {
+nav ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -38,7 +40,7 @@ ul {
     overflow: hidden;
     background-color: #6F4436CC;
     width: 44.6rem;
-    height: 4.3rem;
+    min-height: 8vh;
     border-radius: 1rem;
     padding-left: 2px;
 }
@@ -58,7 +60,7 @@ ul {
 }
   
   li a:hover {
-    background: white;
+    background-color: black;
     color: #6F4436CC;
     border-radius: 1rem;     
 }
